@@ -13,6 +13,7 @@ header{
 #pdp{
     border-radius: 100%;
     width: 120px;
+    height: 120px;
     margin-top: 40px;
     box-shadow: 0 0 2em 3px black;
 }
@@ -104,17 +105,31 @@ main{
     border-left: thick solid #782221;
     font-family: 'Lato', serif;
 }
+
+#experience:hover{
+    border-right: thick solid #782221;
+}
+
 #diplomes{
     background-color: #dbc2a4;
     width: 740px;
     border-left: thick solid #782221;
     font-family: 'Lato', serif;
 }
+
+#diplomes:hover{
+    border-right: thick solid #782221;
+}
+
 #compétences{
     background-color: #dbc2a4;
     width: 740px;
     border-left: thick solid #782221;
     font-family: 'Lato', serif;
+}
+
+#compétences:hover{
+    border-right: thick solid #782221;
 }
 
 #SS{
@@ -128,7 +143,7 @@ main{
 }
 
 #linkedin{
-    border-radius: 50;
+    border-radius: 10%;
     width: 50px;
 }
 
@@ -137,7 +152,7 @@ main{
 }
 
 #X{
-    border-radius: 50;
+    border-radius: 10%;
     width: 50px;
 }
 
@@ -146,11 +161,15 @@ main{
 }
 
 #GitHub{
-    border-radius: 50;
+    border-radius: 10%;
     width: 50px;
 }
 
 #GitHub:hover{
+    opacity: 0.50;
+}
+
+#copyright{
     opacity: 0.50;
 }
 
